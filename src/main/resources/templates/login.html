@@ -22,9 +22,13 @@
 				</div>
 			</div>
 </form>
+<form action="/signin/google" method="POST">
+	            <input type="hidden" name="scope" value="openid email" />
+	            <input type="submit" value="Login using GOOGLE"/>
+</form>
 <form action="/signin/facebook" method="POST">
 	            <input type="hidden" name="scope" value="public_profile" />
-	            <input type="submit" value="Login using Facebook"/>
+	            <input type="submit" value="Login using FACEBOOK"/>
 </form>
 </body>
 </html>
